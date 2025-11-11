@@ -4,10 +4,12 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import { Toaster } from "react-hot-toast";
 
 export default function App() {
   return (
     <Router>
+      {/* <Toaster /> */}
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
